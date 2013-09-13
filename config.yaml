@@ -1,0 +1,13 @@
+options:
+  eureka_build_dir:
+    type: string
+    default: "/opt/eureka"
+    description: "eureka dir"
+  build_eureka:
+    type: boolean
+    default: True
+    description: "build this?"
+  tomcat_port:
+    type: string
+    default: "8080"
+    description: "tomcat port"

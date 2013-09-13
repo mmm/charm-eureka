@@ -1,0 +1,10 @@
+name: eureka
+maintainer: Mark Mims <mark.mims@ubuntu.com>
+summary: netflix oss container
+description: netflix oss container
+provides:
+  eureka-client:
+    interface: http
+requires:
+  cassandra:
+    interface: cassandra
