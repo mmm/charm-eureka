@@ -9,5 +9,5 @@ options:
     description: "build this?"
   tomcat_port:
     type: string
-    default: "8080"
+    default: "80"
     description: "tomcat port"
